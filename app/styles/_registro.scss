@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: space-between;
+  img {
+    width: 50%;
+    height: fit-content;
+  }
+  .formulario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    form {
+      font-size: 1.6rem;
+      display: flex;
+      flex-direction: column;
+    }
+    legend {
+      font-size: 4rem;
+      margin-bottom: 10rem;
+    }
+    input {
+      width: 40rem;
+      height: 3rem;
+      border: 1px solid var(--blue);
+      display: block;
+    }
+    button {
+      margin: 5rem 0;
+      background-color: var(--blue);
+      color: var(--white);
+      border: 0;
+      height: 3.5rem;
+      font-size: 1.7rem;
+      border-radius: 2px;
+      box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        cursor: pointer;
+        background-color: var(--grayishBlue);
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  span {
+    font-size: 1.5rem;
+  }
+  a {
+    font-size: 1.5rem;
+    color: var(--seaBlue);
+  }
+}

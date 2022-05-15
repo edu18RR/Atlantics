@@ -1,0 +1,39 @@
+footer {
+  width: 100vw;
+  height: 40rem;
+  background-color: var(--grayishBlue);
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--white);
+  .socialmedia {
+    ul {
+      display: flex;
+      li {
+        margin: 0 2rem;
+        list-style-type: none;
+      }
+    }
+  }
+  .listas {
+    width: 70%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    ul {
+      li {
+        list-style-type: none;
+        a {
+          color: var(--midBlue);
+          &:hover {
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: var(--turquoise);
+          }
+        }
+      }
+    }
+  }
+}

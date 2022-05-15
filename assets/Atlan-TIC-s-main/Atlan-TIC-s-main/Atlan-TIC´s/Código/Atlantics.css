@@ -1,0 +1,108 @@
+/*Inicio: Afecta a 'Atlantics.html'*/
+
+
+    /* Inicio: Imágenes */
+    .ayotl {
+        display: flex;
+        justify-content: center;
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    .Logo {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    /* Inicio: Imágenes */
+
+
+    /* Inicio: Lista */
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* Fin: Lista */
+
+
+/*Inicio: Afecta a 'Atlantics.html'*/
+
+
+/*Inicio: Afecta a 'Ayotl.html'*/
+
+
+
+/*Inicio: Divs */
+    .izquierdauno {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .derechauno {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .izquierdados {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    .centro {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .divgente {
+        display: flex;
+        justify-content: center;
+
+    }
+
+/*Fin: Divs /*
+
+
+/* Inicio: Imágenes*/
+.turismo {
+    display: flex;
+    justify-content: center;
+    max-width: 45%;
+    max-height: 45%;
+    
+}
+
+.economia {
+    display: flex;
+    justify-content: center;
+    max-width: 45%;
+    max-height: 45%;
+}
+
+.gente {
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Fin: Imágenes*/
+
+
+/* Inicio: Párrafos*/
+
+.historia {
+    margin-top: 12%;
+}
+
+
+
+/* Fin: Párrafos*/
+
+
+
+
+/*Fin: Afecta a 'Ayotl.html'*/
